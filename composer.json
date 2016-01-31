@@ -13,9 +13,15 @@
         { "name": "Maciej Malarz", "email": "malarzm@gmail.com" },
         { "name": "Andreas Braun", "email": "alcaeus@alcaeus.org" }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/kamillo1888/mongofill.git"
+        }
+    ],
     "require": {
         "php": "^5.5 || ^7.0",
-        "ext-mongo": "^1.5",
+        "mongofill/mongofill": "dev-master",
         "doctrine/common": "^2.2"
     },
     "require-dev": {
